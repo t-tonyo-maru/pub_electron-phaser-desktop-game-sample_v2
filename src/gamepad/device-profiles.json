@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Nintendo Switch Pro Controller",
+    "vendorId": 1406,
+    "productId": 8201,
+    "parser": "switch",
+    "priority": 100
+  },
+  {
+    "name": "Sony DualSense",
+    "vendorId": 1356,
+    "productId": 3302,
+    "parser": "sony",
+    "priority": 95
+  },
+  {
+    "name": "Sony DualShock 4",
+    "vendorId": 1356,
+    "parser": "sony",
+    "priority": 90
+  },
+  {
+    "name": "Microsoft Xbox Controller",
+    "vendorId": 1118,
+    "parser": "xbox",
+    "priority": 85
+  },
+  {
+    "name": "Generic Gamepad",
+    "matchName": "controller|gamepad|xbox|dualshock|dualsense|wireless controller|joy-?con|8bitdo",
+    "parser": "auto",
+    "priority": 10
+  }
+]
